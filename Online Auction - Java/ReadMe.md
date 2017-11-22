@@ -12,16 +12,17 @@ In order to compile the programs, the provided bash files have to be run in the 
 </br>
 Alternatively the following commands will start the system:</br>
 </br>
+
 ```
-Javac –classpath . *.java
-Java ResourceServer 8742 
-Java ConsumerClient 8742
-``
-</br>
-In order to run the program, ensure 
-</br>that PORT is specified in the command line, 
-</br>that the port is the same for both server and 
-</br>the client and that the port is available on the machine.</br>
+Javac –classpath . *.java</br>
+Java ResourceServer 8742 </br>
+Java ConsumerClient 8742</br>
+```
+
+In order to run the program, ensure </br>
+that PORT is specified in the command line, </br>
+that the port is the same for both server and </br>
+the client and that the port is available on the machine.</br>
 
 ## Client
 
@@ -30,11 +31,11 @@ Client software’s main purpose is to provide input and output to the user, whi
 The client software requirements have been specified in the assignment and are as follow:</br>
 </br>
 
-``
+
 - Connects to the server. The item currently being offered for sale and the current bid or a reserve price is displayed.</br>
 - Enter the bid. The amount entered should be greater than the current highest bid.</br>
 - After a new bid is placed, the amount of the new bid must be displayed on the client’swindow/console.</br>
-``
+
 
 ## Server
 Server software’s main purpose is to create and manage the items that are listed for the auction, accept and manage connections but also to communicate with the multiple clients including notifying all of them when necessary.</br>
