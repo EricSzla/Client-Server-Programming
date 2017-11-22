@@ -42,7 +42,7 @@ Server software’s main purpose is to create and manage the items that are list
 The server software requirements have been specified in the assignment and are as follow:</br>
 </br>
 
-``
+
 - Receive connections from multiple clients.
 - After a client connects, notify the client which item is currently on sale and the highest bid (or reserve price).
 - Specify the bid period. Max allowed 1 minute. When a new bid is raised, the bid period is reset back.
@@ -50,4 +50,4 @@ The server software requirements have been specified in the assignment and are a
 - If the bid period elapses without a new bid, then the auction for this item closes. The successful bidder (if any) is chosen and all clients are notified.
 - When an auction for one item finishes, another item auctioning should start. Minimum of 5 items should be auctioned, one after another and only one item at a time.
 - Any item not sold should be auctioned again (automatically).
-``
+
